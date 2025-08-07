@@ -1,0 +1,24 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MuseBot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <div id="chatbox"></div>
+    <div class="input-area">
+      <input type="text" id="userInput" placeholder="Speak your soul..." />
+      <button onclick="sendMessage()">Send</button>
+      <button onclick="startVoiceInput()">🎤</button>
+      <button onclick="downloadConversation()">💾</button>
+    </div>
+  </div>
+  <script src="poems.js"></script>
+  <script src="gptLogic.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
